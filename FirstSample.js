@@ -1,14 +1,6 @@
-
 (function(){
-    let input = document.getElementsByClassName('gLFyf');
+    let input = document.getElementsByName('firstname');
     for(let i=0; i<input.length;i++){
-    input[i].innerHTML = "namita";
+    input[i].value = "namita";
     }
 })();
-
-javascript:(function(){
-    let script = document.createElement('script');
-    script.src = 'https://cdn.jsdelivr.net/gh/namitak256/Practice/FirstSample.js';
-    document.body.appendChild(script);})()
-
-javascript:(function(){let script = document.createElement('script');script.src = 'https://cdn.jsdelivr.net/gh/namitak256/Practice/FirstSample.js';document.body.appendChild(script);})()
